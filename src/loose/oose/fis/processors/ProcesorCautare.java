@@ -7,6 +7,10 @@ import java.util.ArrayList;
 public class ProcesorCautare implements Procesor {
     private String text;
 
+    public String getText(){
+        return text;
+    }
+
     public ProcesorCautare(String text) {
         this.text = text;
     }
